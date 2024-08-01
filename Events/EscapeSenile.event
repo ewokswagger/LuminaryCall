@@ -1,0 +1,78 @@
+EventPointerTable(EscapeSenileEvents, ChapterEvents)
+
+setText(0x160, NewChName)
+
+ALIGN 4
+NewChName:
+String("Embark!")
+BYTE 0
+
+ALIGN 4
+ChapterEvents:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno Dunno Dunno
+POIN Tutorial
+POIN TrapData TrapDataHard
+POIN PlayerUnits PlayerUnitsHard
+POIN $0 $0 $0 $0 $0 $0
+POIN BeginningScene EndingScene
+
+Dunno:
+WORD $00
+
+Tutorial:
+WORD $00
+
+TurnBasedEvents:
+END_MAIN
+
+CharacterBasedEvents:
+END_MAIN
+
+LocationBasedEvents:
+Escape(0,12)
+Escape(0,13)
+Escape(0,14)
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+END_MAIN
+
+PlayerUnits:
+UNIT Eirika EirikaLord Eirika Level(1,Ally,False) [2,16] 0x0 0x0 0x0 0x1 [Rapier,Vulnerary] NoAI
+UNIT
+
+PlayerUnitsHard:
+UNIT
+
+EnemyUnits:
+UNIT
+
+TrapData:
+ENDTRAP
+ALIGN 4
+
+TrapDataHard:
+ENDTRAP
+ALIGN 4
+
+BeginningScene:
+ENUT 0x1 //no more boss quotes
+ENUT 0x2 //no more death quotes
+LOAD1 0x1 EnemyUnits
+ENUN
+LOAD1 0x0 PlayerUnits
+ENUN
+// GotoPrepScreen
+
+EndingScene:
+ASMC 0x85C71 0x381F5 0x37CF9 //show records screen
+STAL 120
+EVBIT_F 0x2
+MNTS 0x1 //return to title screen
+NoFade
+ENDA
