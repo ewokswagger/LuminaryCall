@@ -43,7 +43,7 @@ CauseGameOverIfLordDies
 END_MAIN
 
 PlayerUnits:
-UNIT Eirika EirikaLord Eirika Level(1,Ally,False) [2,16] 0x0 0x0 0x0 0x1 [Rapier,Vulnerary] NoAI
+UNIT Eirika EirikaLord Eirika Level(1,Ally,False) [3,3] 0x0 0x0 0x0 0x1 [Rapier,Vulnerary] NoAI
 UNIT
 
 PlayerUnitsHard:
@@ -68,6 +68,7 @@ ENUN
 LOAD1 0x0 PlayerUnits
 ENUN
 // GotoPrepScreen
+ENDA
 
 EndingScene:
 ASMC 0x85C71 0x381F5 0x37CF9 //show records screen
