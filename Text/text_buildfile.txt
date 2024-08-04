@@ -1,4 +1,3 @@
-
 # 0x0002 textWeaponRankIncreasedTo
  Weapon rank increased to [X]
 
@@ -121,3 +120,5 @@ a skill when used.[X]
 #include "skilldesc_text.txt"
 
 #include "unitinfo_text.txt"
+
+#include LuminaryCallText/Characters.txt

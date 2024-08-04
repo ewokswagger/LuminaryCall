@@ -1,0 +1,10 @@
+## BrynhildName
+Brynhild[X]
+## KvasirName
+Kvasir[X]
+## DianthaName
+Diantha[X]
+## BlytheName
+Blythe[X]
+## MalachyName
+Malachy[X]
