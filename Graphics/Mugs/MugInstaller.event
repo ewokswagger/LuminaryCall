@@ -1,0 +1,9 @@
+#include "MugData/MugLabels.event"
+// setMugEntry(<mugindex>,<portrait label>,<mouth X>,<mouth Y>,<eye X>,<eye Y>)
+
+setMugEntry(BrynhildMug, BrynhildMugLabel, 3, 5, 3, 4)
+setMugEntry(BlytheMug, BlytheMugLabel, 3, 5, 3, 4)
+setMugEntry(ChlotharMug, ChlotharMugLabel, 3, 5, 3, 4)
+setMugEntry(DianthaMug, DianthaMugLabel, 3, 5, 3, 4)
+setMugEntry(KvasirMug, KvasirMugLabel, 3, 5, 3, 4)
+setMugEntry(MalachyMug, MalachyMugLabel, 3, 5, 3, 4)

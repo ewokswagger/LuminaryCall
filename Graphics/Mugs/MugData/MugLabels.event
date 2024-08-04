@@ -1,0 +1,42 @@
+ALIGN 4
+BlytheMugLabel:
+#incbin "Blythe_mug.dmp"
+#incbin "Blythe_frames.dmp"
+#incbin "Blythe_palette.dmp"
+#incbin "Blythe_minimug.dmp"
+
+ALIGN 4
+BrynhildMugLabel:
+#incbin "Brynhild_mug.dmp"
+#incbin "Brynhild_frames.dmp"
+#incbin "Brynhild_palette.dmp"
+#incbin "Brynhild_minimug.dmp"
+
+ALIGN 4
+ChlotharMugLabel:
+#incbin "Chlothar_mug.dmp"
+#incbin "Chlothar_frames.dmp"
+#incbin "Chlothar_palette.dmp"
+#incbin "Chlothar_minimug.dmp"
+
+ALIGN 4
+DianthaMugLabel:
+#incbin "Diantha_mug.dmp"
+#incbin "Diantha_frames.dmp"
+#incbin "Diantha_palette.dmp"
+#incbin "Diantha_minimug.dmp"
+
+ALIGN 4
+KvasirMugLabel:
+#incbin "Kvasir_mug.dmp"
+#incbin "Kvasir_frames.dmp"
+#incbin "Kvasir_palette.dmp"
+#incbin "Kvasir_minimug.dmp"
+
+ALIGN 4
+MalachyMugLabel:
+#incbin "Malachy_mug.dmp"
+#incbin "Malachy_frames.dmp"
+#incbin "Malachy_palette.dmp"
+#incbin "Malachy_minimug.dmp"
+

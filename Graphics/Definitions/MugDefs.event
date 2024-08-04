@@ -1,0 +1,6 @@
+#define BrynhildMug 0x02
+#define ChlotharMug 0x03
+#define KvasirMug 0x04
+#define DianthaMug 0x05
+#define BlytheMug 0x06
+#define MalachyMug 0x07
