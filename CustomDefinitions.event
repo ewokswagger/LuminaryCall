@@ -47,3 +47,10 @@
 
 //Graphics
 #include Graphics/Definitions/MugDefs.event
+
+//Characters
+#define Brynhild 0x01
+#define Kvasir 0x02
+#define Diantha 0x03
+#define Blythe 0x04
+#define Malachy 0x05

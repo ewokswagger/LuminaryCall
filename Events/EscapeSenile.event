@@ -43,7 +43,14 @@ CauseGameOverIfLordDies
 END_MAIN
 
 PlayerUnits:
-UNIT Eirika EirikaLord Eirika Level(1,Ally,False) [3,3] 0x0 0x0 0x0 0x1 [Rapier,Vulnerary] NoAI
+UNIT Brynhild EirikaLord Brynhild Level(1,Ally,False) [2,1] 0x0 0x0 0x0 0x1 [Rapier,Elixir] NoAI
+UNIT Kvasir WyvernLord Brynhild Level(1,Ally,False)[1,2] 0x0 0x0 0x0 0x1 [SteelBlade,IronLance] NoAI
+UNIT Diantha MageKnight Brynhild Level(1,Ally,False) [2,3] 0x0 0x0 0x0 0x1 [Fire, Heal, Vulnerary] NoAI
+UNIT Blythe Cleric Brynhild Level(1,Ally,False) [3,1] 0x0 0x0 0x0 0x1 [Mend, Vulnerary] NoAI
+UNIT
+
+RecruitableUnits:
+UNIT Malachy Thief Brynhild Level(1,Enemy,False) [11,7] 0x0 0x0 0x0 0x1 [SlimSword,RedGem] LootingThiefAI 0x00 0x00
 UNIT
 
 PlayerUnitsHard:
@@ -61,13 +68,11 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
-ENUT 0x1 //no more boss quotes
-ENUT 0x2 //no more death quotes
-LOAD1 0x1 EnemyUnits
+LOAD1 1 EnemyUnits
+LOAD1 1 RecruitableUnits
 ENUN
-LOAD1 0x0 PlayerUnits
+LOAD1 1 PlayerUnits
 ENUN
-// GotoPrepScreen
 ENDA
 
 EndingScene:
